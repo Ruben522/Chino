@@ -1,0 +1,5 @@
+1. Añadir más vocabulario y frases.
+2. Añadir función de cambiar de orden las flashcards.
+3. Añadir más radicales.
+4. Mejorar un poco la estética (Sobretodo de los desplegables).
+5. Añadir los colores para las frases.
