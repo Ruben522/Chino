@@ -8,15 +8,13 @@ import "./App.css";
 function App() {
 	return (
 		<>
-		<div className="container-app">
-			<Header />
-			<Menu />
-			<Contenido />
-			<Footer />
-		</div>
+			<div className="container-app">
+				<Header />
+				<Contenido />
+				<Footer />
+			</div>
 		</>
 	);
 }
 
 export default App;
- 

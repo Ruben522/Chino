@@ -1,75 +1,80 @@
 /* src/pages/VocabListPage.css */
 .vocab-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.vocab-table th, .vocab-table td {
-    padding: 12px 15px;
-    text-align: left;
-    border-bottom: 1px solid #dee2e6;
+.vocab-table th,
+.vocab-table td {
+	padding: 12px 15px;
+	text-align: left;
+	border-bottom: 1px solid #dee2e6;
 }
 
 .vocab-table th {
-    background-color: #007bff;
-    color: white;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 0.9rem;
+	background-color: #007bff;
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+}
+
+.vocab-table tr:nth-child(odd) {
+	background-color: #d0f3f1;
 }
 
 .vocab-table tr:nth-child(even) {
-    background-color: #f8f9fa;
+	background-color: #f8f9fa;
 }
 
 .vocab-table tr:hover {
-    background-color: #e2e6ea;
+	background-color: #e2e6ea;
 }
 
 .vocab-table td:first-child {
-    font-size: 1.5rem; /* Carácter chino más grande */
-    font-weight: bold;
+	font-size: 1.5rem; /* Carácter chino más grande */
+	font-weight: bold;
 }
 /* Selectores */
 .selectors {
-  display: flex;
-  justify-content: flex-start;
-  gap: 30px;
-  margin-bottom: 25px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 30px;
+	margin-bottom: 25px;
 }
 
 .selectors select {
-  padding: 8px 12px;
-  border-radius: 6px;
-  font-size: 1rem;
+	padding: 8px 12px;
+	border-radius: 6px;
+	font-size: 1rem;
 }
 
 /* Badge de categoría */
 .type-badge {
-  padding: 5px 10px;
-  border-radius: 8px;
-  color: white;
-  font-weight: 600;
-  display: inline-block;
-  font-size: 0.85rem;
+	padding: 5px 10px;
+	border-radius: 8px;
+	color: white;
+	font-weight: 600;
+	display: inline-block;
+	font-size: 0.85rem;
 }
 
 .audio-icon-btn {
-  color: white;
-  border: none;
-  padding: 6px 10px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: opacity 0.2s ease, transform 0.1s ease;
+	color: rgb(71, 23, 23);
+	border: none;
+	padding: 6px 10px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1rem;
+	transition: opacity 0.2s ease, transform 0.1s ease;
 }
 
 .audio-icon-btn:hover {
-  opacity: 0.85;
-  transform: scale(1.1);
+	opacity: 0.85;
+	transform: scale(1.1);
 }
 .audio-icon-btn:active {
-  transform: scale(0.95);
+	transform: scale(0.95);
 }
