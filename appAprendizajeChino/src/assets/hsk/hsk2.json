@@ -1,0 +1,61 @@
+[
+  { "id": 1, "chinese": "爸爸", "pinyin": "bàba", "spanish": "padre", "level": 2, "type": "sustantivo" },
+  { "id": 2, "chinese": "妈妈", "pinyin": "māma", "spanish": "madre", "level": 2, "type": "sustantivo" },
+  { "id": 3, "chinese": "弟弟", "pinyin": "dìdi", "spanish": "hermano menor", "level": 2, "type": "sustantivo" },
+  { "id": 4, "chinese": "姐姐", "pinyin": "jiějie", "spanish": "hermana mayor", "level": 2, "type": "sustantivo" },
+  { "id": 5, "chinese": "孩子", "pinyin": "háizi", "spanish": "niño", "level": 2, "type": "sustantivo" },
+
+  { "id": 6, "chinese": "男人", "pinyin": "nánrén", "spanish": "hombre", "level": 2, "type": "sustantivo" },
+  { "id": 7, "chinese": "女人", "pinyin": "nǚrén", "spanish": "mujer", "level": 2, "type": "sustantivo" },
+  { "id": 8, "chinese": "衣服", "pinyin": "yīfu", "spanish": "ropa", "level": 2, "type": "sustantivo" },
+  { "id": 9, "chinese": "手机", "pinyin": "shǒujī", "spanish": "móvil", "level": 2, "type": "sustantivo" },
+  { "id": 10, "chinese": "住", "pinyin": "zhù", "spanish": "vivir (residir)", "level": 2, "type": "verbo" },
+
+  { "id": 11, "chinese": "走", "pinyin": "zǒu", "spanish": "andar / irse", "level": 2, "type": "verbo" },
+  { "id": 12, "chinese": "跑步", "pinyin": "pǎobù", "spanish": "correr", "level": 2, "type": "verbo" },
+  { "id": 13, "chinese": "穿", "pinyin": "chuān", "spanish": "llevar (ropa)", "level": 2, "type": "verbo" },
+  { "id": 14, "chinese": "给", "pinyin": "gěi", "spanish": "dar", "level": 2, "type": "verbo" },
+  { "id": 15, "chinese": "告诉", "pinyin": "gàosu", "spanish": "decir / informar", "level": 2, "type": "verbo" },
+
+  { "id": 16, "chinese": "问", "pinyin": "wèn", "spanish": "preguntar", "level": 2, "type": "verbo" },
+  { "id": 17, "chinese": "帮助", "pinyin": "bāngzhù", "spanish": "ayudar", "level": 2, "type": "verbo" },
+  { "id": 18, "chinese": "准备", "pinyin": "zhǔnbèi", "spanish": "preparar", "level": 2, "type": "verbo" },
+  { "id": 19, "chinese": "送", "pinyin": "sòng", "spanish": "enviar / regalar", "level": 2, "type": "verbo" },
+  { "id": 20, "chinese": "懂", "pinyin": "dǒng", "spanish": "entender", "level": 2, "type": "verbo" },
+
+  { "id": 21, "chinese": "忙", "pinyin": "máng", "spanish": "ocupado", "level": 2, "type": "adjetivo" },
+  { "id": 22, "chinese": "累", "pinyin": "lèi", "spanish": "cansado", "level": 2, "type": "adjetivo" },
+  { "id": 23, "chinese": "贵", "pinyin": "guì", "spanish": "caro", "level": 2, "type": "adjetivo" },
+  { "id": 24, "chinese": "便宜", "pinyin": "piányi", "spanish": "barato", "level": 2, "type": "adjetivo" },
+  { "id": 25, "chinese": "快", "pinyin": "kuài", "spanish": "rápido", "level": 2, "type": "adjetivo" },
+
+  { "id": 26, "chinese": "慢", "pinyin": "màn", "spanish": "lento", "level": 2, "type": "adjetivo" },
+  { "id": 27, "chinese": "饿", "pinyin": "è", "spanish": "hambriento", "level": 2, "type": "adjetivo" },
+  { "id": 28, "chinese": "高", "pinyin": "gāo", "spanish": "alto", "level": 2, "type": "adjetivo" },
+  { "id": 29, "chinese": "黑", "pinyin": "hēi", "spanish": "negro", "level": 2, "type": "adjetivo" },
+  { "id": 30, "chinese": "白", "pinyin": "bái", "spanish": "blanco", "level": 2, "type": "adjetivo" },
+
+  { "id": 31, "chinese": "红色", "pinyin": "hóngsè", "spanish": "rojo", "level": 2, "type": "sustantivo" },
+  { "id": 32, "chinese": "颜色", "pinyin": "yánsè", "spanish": "color", "level": 2, "type": "sustantivo" },
+  { "id": 33, "chinese": "眼睛", "pinyin": "yǎnjing", "spanish": "ojos", "level": 2, "type": "sustantivo" },
+  { "id": 34, "chinese": "鼻子", "pinyin": "bízi", "spanish": "nariz", "level": 2, "type": "sustantivo" },
+  { "id": 35, "chinese": "嘴", "pinyin": "zuǐ", "spanish": "boca", "level": 2, "type": "sustantivo" },
+
+  { "id": 36, "chinese": "身体", "pinyin": "shēntǐ", "spanish": "cuerpo", "level": 2, "type": "sustantivo" },
+  { "id": 37, "chinese": "牛奶", "pinyin": "niúnǎi", "spanish": "leche", "level": 2, "type": "sustantivo" },
+  { "id": 38, "chinese": "咖啡", "pinyin": "kāfēi", "spanish": "café", "level": 2, "type": "sustantivo" },
+  { "id": 39, "chinese": "蛋糕", "pinyin": "dàngāo", "spanish": "pastel", "level": 2, "type": "sustantivo" },
+  { "id": 40, "chinese": "面条", "pinyin": "miàntiáo", "spanish": "fideos", "level": 2, "type": "sustantivo" },
+
+  { "id": 41, "chinese": "时间", "pinyin": "shíjiān", "spanish": "tiempo", "level": 2, "type": "sustantivo" },
+  { "id": 42, "chinese": "事情", "pinyin": "shìqing", "spanish": "asunto", "level": 2, "type": "sustantivo" },
+  { "id": 43, "chinese": "票", "pinyin": "piào", "spanish": "entrada / billete", "level": 2, "type": "sustantivo" },
+  { "id": 44, "chinese": "问题", "pinyin": "wèntí", "spanish": "pregunta / problema", "level": 2, "type": "sustantivo" },
+  { "id": 45, "chinese": "手表", "pinyin": "shǒubiǎo", "spanish": "reloj de pulsera", "level": 2, "type": "sustantivo" },
+
+  { "id": 46, "chinese": "生日", "pinyin": "shēngrì", "spanish": "cumpleaños", "level": 2, "type": "sustantivo" },
+  { "id": 47, "chinese": "路", "pinyin": "lù", "spanish": "camino / calle", "level": 2, "type": "sustantivo" },
+  { "id": 48, "chinese": "公共汽车", "pinyin": "gōnggòng qìchē", "spanish": "autobús", "level": 2, "type": "sustantivo" },
+  { "id": 49, "chinese": "飞机", "pinyin": "fēijī", "spanish": "avión", "level": 2, "type": "sustantivo" },
+  { "id": 50, "chinese": "票价", "pinyin": "piàojià", "spanish": "precio del billete", "level": 2, "type": "sustantivo" }
+]

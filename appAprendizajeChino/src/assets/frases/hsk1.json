@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "chinese": "你好吗？",
+    "pinyin": "nǐ hǎo ma?",
+    "spanish": "¿Cómo estás?",
+    "tense": "presente",
+    "analysis": [
+      { "char": "你", "pinyin": "nǐ", "spanish": "tú" },
+      { "char": "好", "pinyin": "hǎo", "spanish": "bien" },
+      { "char": "吗", "pinyin": "ma", "spanish": "partícula interrogativa" }
+    ]
+  },
+  {
+    "id": 2,
+    "chinese": "我很好。",
+    "pinyin": "wǒ hěn hǎo.",
+    "spanish": "Estoy muy bien.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
+      { "char": "很", "pinyin": "hěn", "spanish": "muy" },
+      { "char": "好", "pinyin": "hǎo", "spanish": "bien" }
+    ]
+  },
+  {
+    "id": 3,
+    "chinese": "你吃饭了吗？",
+    "pinyin": "nǐ chīfàn le ma?",
+    "spanish": "¿Has comido?",
+    "tense": "pasado",
+    "analysis": [
+      { "char": "你", "pinyin": "nǐ", "spanish": "tú" },
+      { "char": "吃", "pinyin": "chī", "spanish": "comer" },
+      { "char": "饭", "pinyin": "fàn", "spanish": "comida" },
+      { "char": "了", "pinyin": "le", "spanish": "indica acción completada" },
+      { "char": "吗", "pinyin": "ma", "spanish": "partícula interrogativa" }
+    ]
+  },
+  {
+    "id": 4,
+    "chinese": "我在学习汉语。",
+    "pinyin": "wǒ zài xuéxí hànyǔ.",
+    "spanish": "Estoy estudiando chino.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
+      { "char": "在", "pinyin": "zài", "spanish": "estar (acción en progreso)" },
+      { "char": "学习", "pinyin": "xuéxí", "spanish": "estudiar" },
+      { "char": "汉语", "pinyin": "hànyǔ", "spanish": "idioma chino" }
+    ]
+  },
+  {
+    "id": 5,
+    "chinese": "明天见。",
+    "pinyin": "míngtiān jiàn.",
+    "spanish": "Nos vemos mañana.",
+    "tense": "futuro",
+    "analysis": [
+      { "char": "明天", "pinyin": "míngtiān", "spanish": "mañana" },
+      { "char": "见", "pinyin": "jiàn", "spanish": "ver" }
+    ]
+  }
+]

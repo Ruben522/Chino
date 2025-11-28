@@ -1,0 +1,61 @@
+[
+  { "id": 1, "chinese": "你好", "pinyin": "nǐ hǎo", "spanish": "hola", "level": 1, "type": "saludo" },
+  { "id": 2, "chinese": "谢谢", "pinyin": "xièxie", "spanish": "gracias", "level": 1, "type": "frase" },
+  { "id": 3, "chinese": "不客气", "pinyin": "bú kèqi", "spanish": "de nada", "level": 1, "type": "frase" },
+  { "id": 4, "chinese": "对不起", "pinyin": "duìbuqǐ", "spanish": "lo siento", "level": 1, "type": "frase" },
+  { "id": 5, "chinese": "没关系", "pinyin": "méi guānxi", "spanish": "no pasa nada", "level": 1, "type": "frase" },
+
+  { "id": 6, "chinese": "请", "pinyin": "qǐng", "spanish": "por favor", "level": 1, "type": "frase" },
+  { "id": 7, "chinese": "是", "pinyin": "shì", "spanish": "ser", "level": 1, "type": "verbo" },
+  { "id": 8, "chinese": "有", "pinyin": "yǒu", "spanish": "tener / haber", "level": 1, "type": "verbo" },
+  { "id": 9, "chinese": "在", "pinyin": "zài", "spanish": "estar (ubicación)", "level": 1, "type": "verbo" },
+  { "id": 10, "chinese": "吃", "pinyin": "chī", "spanish": "comer", "level": 1, "type": "verbo" },
+
+  { "id": 11, "chinese": "喝", "pinyin": "hē", "spanish": "beber", "level": 1, "type": "verbo" },
+  { "id": 12, "chinese": "看", "pinyin": "kàn", "spanish": "mirar / ver", "level": 1, "type": "verbo" },
+  { "id": 13, "chinese": "买", "pinyin": "mǎi", "spanish": "comprar", "level": 1, "type": "verbo" },
+  { "id": 14, "chinese": "住", "pinyin": "zhù", "spanish": "vivir", "level": 1, "type": "verbo" },
+  { "id": 15, "chinese": "喜欢", "pinyin": "xǐhuan", "spanish": "gustar", "level": 1, "type": "verbo" },
+
+  { "id": 16, "chinese": "大", "pinyin": "dà", "spanish": "grande", "level": 1, "type": "adjetivo" },
+  { "id": 17, "chinese": "小", "pinyin": "xiǎo", "spanish": "pequeño", "level": 1, "type": "adjetivo" },
+  { "id": 18, "chinese": "多", "pinyin": "duō", "spanish": "mucho", "level": 1, "type": "adjetivo" },
+  { "id": 19, "chinese": "少", "pinyin": "shǎo", "spanish": "poco", "level": 1, "type": "adjetivo" },
+  { "id": 20, "chinese": "热", "pinyin": "rè", "spanish": "caliente", "level": 1, "type": "adjetivo" },
+
+  { "id": 21, "chinese": "冷", "pinyin": "lěng", "spanish": "frío", "level": 1, "type": "adjetivo" },
+  { "id": 22, "chinese": "好", "pinyin": "hǎo", "spanish": "bueno", "level": 1, "type": "adjetivo" },
+  { "id": 23, "chinese": "忙", "pinyin": "máng", "spanish": "ocupado", "level": 1, "type": "adjetivo" },
+  { "id": 24, "chinese": "高兴", "pinyin": "gāoxìng", "spanish": "feliz", "level": 1, "type": "adjetivo" },
+  { "id": 25, "chinese": "漂亮", "pinyin": "piàoliang", "spanish": "bonito", "level": 1, "type": "adjetivo" },
+
+  { "id": 26, "chinese": "我", "pinyin": "wǒ", "spanish": "yo", "level": 1, "type": "pronombre" },
+  { "id": 27, "chinese": "你", "pinyin": "nǐ", "spanish": "tú", "level": 1, "type": "pronombre" },
+  { "id": 28, "chinese": "他", "pinyin": "tā", "spanish": "él", "level": 1, "type": "pronombre" },
+  { "id": 29, "chinese": "她", "pinyin": "tā", "spanish": "ella", "level": 1, "type": "pronombre" },
+  { "id": 30, "chinese": "我们", "pinyin": "wǒmen", "spanish": "nosotros", "level": 1, "type": "pronombre" },
+
+  { "id": 31, "chinese": "这", "pinyin": "zhè", "spanish": "este / esto", "level": 1, "type": "demostrativo" },
+  { "id": 32, "chinese": "那", "pinyin": "nà", "spanish": "ese / eso", "level": 1, "type": "demostrativo" },
+  { "id": 33, "chinese": "哪", "pinyin": "nǎ", "spanish": "cuál / dónde", "level": 1, "type": "interrogativo" },
+  { "id": 34, "chinese": "谁", "pinyin": "shéi", "spanish": "quién", "level": 1, "type": "interrogativo" },
+  { "id": 35, "chinese": "什么", "pinyin": "shénme", "spanish": "qué", "level": 1, "type": "interrogativo" },
+
+  { "id": 36, "chinese": "一", "pinyin": "yī", "spanish": "uno", "level": 1, "type": "número" },
+  { "id": 37, "chinese": "二", "pinyin": "èr", "spanish": "dos", "level": 1, "type": "número" },
+  { "id": 38, "chinese": "三", "pinyin": "sān", "spanish": "tres", "level": 1, "type": "número" },
+  { "id": 39, "chinese": "四", "pinyin": "sì", "spanish": "cuatro", "level": 1, "type": "número" },
+  { "id": 40, "chinese": "五", "pinyin": "wǔ", "spanish": "cinco", "level": 1, "type": "número" },
+
+  { "id": 41, "chinese": "六", "pinyin": "liù", "spanish": "seis", "level": 1, "type": "número" },
+  { "id": 42, "chinese": "七", "pinyin": "qī", "spanish": "siete", "level": 1, "type": "número" },
+  { "id": 43, "chinese": "八", "pinyin": "bā", "spanish": "ocho", "level": 1, "type": "número" },
+  { "id": 44, "chinese": "九", "pinyin": "jiǔ", "spanish": "nueve", "level": 1, "type": "número" },
+  { "id": 45, "chinese": "十", "pinyin": "shí", "spanish": "diez", "level": 1, "type": "número" },
+
+  { "id": 46, "chinese": "猫", "pinyin": "māo", "spanish": "gato", "level": 1, "type": "sustantivo" },
+  { "id": 47, "chinese": "狗", "pinyin": "gǒu", "spanish": "perro", "level": 1, "type": "sustantivo" },
+  { "id": 48, "chinese": "水", "pinyin": "shuǐ", "spanish": "agua", "level": 1, "type": "sustantivo" },
+  { "id": 49, "chinese": "米饭", "pinyin": "mǐfàn", "spanish": "arroz cocido", "level": 1, "type": "sustantivo" },
+  { "id": 50, "chinese": "苹果", "pinyin": "píngguǒ", "spanish": "manzana", "level": 1, "type": "sustantivo" }
+]

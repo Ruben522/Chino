@@ -1,0 +1,62 @@
+.controls {
+  width: 100%;
+  max-width: 420px;
+  margin: 10px auto 0 auto; /* nuevo */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.controls button {
+  min-width: 110px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #d62828;
+  color: white;
+  transition: transform .15s ease, opacity .15s ease;
+}
+
+.controls button:disabled {
+  opacity: 0.5;
+}
+
+.controls button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.card-counter {
+  font-size: 0.95rem;
+  color: #555;
+  width: 60px;
+  text-align: center;
+}
+.flashcard-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px; /* ← ESPACIO REAL PARA LOS BOTONES */
+}
+.flashcard-container {
+  width: 320px;
+  height: 420px;
+  perspective: 1500px; /* Añade perspectiva para el efecto 3D */
+}
+.flashcard-select-level {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.flashcard-select-level select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+.flashcard-select-level label {
+  margin-right: 10px;
+  font-size: 1rem;
+  color: #333;
+}

@@ -1,0 +1,15 @@
+/* src/components/Error.css */
+.error-message {
+    padding: 20px;
+    border: 1px solid #dc3545; /* Rojo */
+    background-color: #f8d7da; /* Fondo rojo claro */
+    color: #721c24; /* Texto rojo oscuro */
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.error-message h2 {
+    margin-top: 0;
+    color: #dc3545;
+}

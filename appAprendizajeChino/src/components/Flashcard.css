@@ -1,0 +1,106 @@
+/* src/components/Flashcard.css */
+
+/* 1. Establecer la perspectiva para el efecto 3D */
+.flashcard-container {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+/* 2. El Contenedor de la Tarjeta que Rotará */
+.flashcard {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Clave para el efecto 3D */
+    transition: transform 0.6s; /* Velocidad de la animación */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* 3. Rotar cuando el contenedor padre tiene la clase 'flipped' */
+.flashcard-container.flipped .flashcard {
+    transform: rotateY(180deg);
+}
+
+/* 4. Estilos Comunes para el Frente y el Reverso */
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta la cara opuesta durante la rotación */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.front {
+    background-color: #f7e0a2; /* Amarillo claro */
+    color: #333;
+}
+
+.back {
+    background-color: #a2d2ff; /* Azul claro */
+    color: #333;
+    transform: rotateY(180deg); /* El reverso ya está rotado por defecto */
+}
+
+/* Estilos de Contenido */
+.chinese-char {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.pinyin {
+    font-size: 1.5rem;
+    color: #0056b3;
+}
+
+.translation {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.hsk-level {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.hint {
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 10px;
+    opacity: 0.5;
+}
+
+.audio-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #d62828;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  z-index: 5;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.audio-btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+.audio-btn:active {
+  transform: scale(0.95);
+}

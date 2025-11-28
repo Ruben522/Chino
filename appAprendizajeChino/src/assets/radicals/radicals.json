@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "radical": "人",
+    "pinyin": "rén",
+    "meaning": "persona",
+    "explanation": "Uno de los radicales más importantes. Aparece en caracteres relacionados con acciones humanas, profesiones o comportamientos.",
+    "examples": ["你 (tú)", "他 (él)", "从 (desde)"]
+  },
+  {
+    "id": 2,
+    "radical": "口",
+    "pinyin": "kǒu",
+    "meaning": "boca",
+    "explanation": "Relacionada con hablar, comer o el número de personas. Muy frecuente en palabras cotidianas.",
+    "examples": ["吃 (comer)", "吗 (partícula interrogativa)", "叫 (llamarse)"]
+  },
+  {
+    "id": 3,
+    "radical": "女",
+    "pinyin": "nǚ",
+    "meaning": "mujer",
+    "explanation": "Relativo a características femeninas, relaciones familiares y emociones.",
+    "examples": ["妈 (madre)", "好 (bueno)", "妹 (hermana menor)"]
+  },
+  {
+    "id": 4,
+    "radical": "木",
+    "pinyin": "mù",
+    "meaning": "madera / árbol",
+    "explanation": "Relaciona caracteres con la naturaleza, objetos de madera o cosas construidas.",
+    "examples": ["林 (bosque)", "机 (máquina)", "本 (raíz, libro)"]
+  },
+  {
+    "id": 5,
+    "radical": "水",
+    "pinyin": "shuǐ",
+    "meaning": "agua",
+    "explanation": "Usado en caracteres relacionados con líquidos, limpieza, ríos, etc. A veces aparece como 氵.",
+    "examples": ["河 (río)", "海 (mar)", "酒 (alcohol)"]
+  },
+  {
+    "id": 6,
+    "radical": "火",
+    "pinyin": "huǒ",
+    "meaning": "fuego",
+    "explanation": "Se relaciona con calor, quemar, emoción o furia. También aparece como 灬 abajo.",
+    "examples": ["热 (calor)", "煮 (cocinar)", "灯 (luz)"]
+  },
+  {
+    "id": 7,
+    "radical": "心",
+    "pinyin": "xīn",
+    "meaning": "corazón",
+    "explanation": "Se usa en caracteres emocionales, mentales o relacionados con sentimientos. A veces aparece como 忄.",
+    "examples": ["想 (pensar)", "忙 (ocupado)", "快 (rápido, feliz)"]
+  },
+  {
+    "id": 8,
+    "radical": "手",
+    "pinyin": "shǒu",
+    "meaning": "mano",
+    "explanation": "Aparece en palabras de acciones, gestos o manipulación. A veces se escribe 扌.",
+    "examples": ["打 (golpear)", "找 (buscar)", "推 (empujar)"]
+  },
+  {
+    "id": 9,
+    "radical": "日",
+    "pinyin": "rì",
+    "meaning": "sol, día",
+    "explanation": "Relaciona caracteres con tiempo, luz, fechas o clima.",
+    "examples": ["明 (brillante)", "早 (temprano)", "时 (hora)"]
+  },
+  {
+    "id": 10,
+    "radical": "月",
+    "pinyin": "yuè",
+    "meaning": "luna, cuerpo",
+    "explanation": "Puede significar luna, pero en muchos casos se usa como radical relacionado al cuerpo humano.",
+    "examples": ["腿 (pierna)", "肚 (vientre)", "朋 (amigo)"]
+  }
+]

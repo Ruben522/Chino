@@ -1,0 +1,113 @@
+.radicals-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.radical-card {
+  background: #fff7da;
+  padding: 28px 22px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  line-height: 1.7; /* más respiración vertical */
+}
+
+.radical-card:hover {
+  transform: translateY(-4px);
+}
+
+
+.radical-symbol {
+  font-size: 4.4rem;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.radical-pinyin {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 5px;
+  color: #0056b3;
+}
+
+.radical-meaning {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+
+
+.radical-explanation {
+  margin-top: 12px;
+  font-size: 0.95rem;
+}
+
+.radical-examples {
+  margin-top: 18px;
+}
+
+.radical-examples strong {
+  font-size: 1rem;
+}
+
+.radical-examples ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 12px;
+}
+
+.radical-examples li {
+  display: flex;
+  align-items: center;
+  gap: 10px;         /* separa icono / texto / botón audio */
+  margin-bottom: 12px;
+  padding-left: 4px;
+}
+
+.radical-examples li::before {
+  content: "🏯";
+  font-size: 1.1rem;
+}
+
+.audio-btn-radical {
+  margin: 12px auto 20px auto;
+  display: block;
+  padding: 10px 16px;
+  background: #d62828;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: 0.2s ease;
+}
+
+.audio-btn-radical:hover {
+  opacity: 0.9;
+  transform: scale(1.04);
+}
+.audio-btn-radical:active {
+  transform: scale(0.96);
+}
+.audio-btn-example {
+  padding: 4px 8px;
+  background: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: 0.2s ease;
+}
+
+.audio-btn-example:hover {
+  opacity: 0.9;
+  transform: scale(1.12);
+}
+.audio-btn-example:active {
+  transform: scale(0.92);
+}
