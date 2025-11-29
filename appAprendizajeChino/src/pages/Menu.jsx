@@ -21,6 +21,13 @@ const Menu = () => {
 			<Link className="menu-link" to="/frases">
   				Frases
 			</Link>
+			<Link className="menu-link" to="/practica-pronunciacion">
+			Pronunciación
+			</Link>
+			<Link className="menu-link" to="/exam">Examen</Link>
+			<Link className="menu-link" to="/exam-ranking">Ranking</Link>
+			<Link className="menu-link" to="/exam-review">Revisión</Link>
+
 		</nav>
 	); 
 };

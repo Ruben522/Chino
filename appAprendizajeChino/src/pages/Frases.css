@@ -62,3 +62,19 @@
   font-weight: bold;
   font-size: 1.2rem;
 }
+.frases-color-toggle {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.analysis-part {
+  display: grid;
+  grid-template-columns: 60px 80px 1fr;
+  padding: 8px 6px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  transition: 0.2s ease;
+}
+.analysis-part:hover {
+  background: #f0f8ff;
+}

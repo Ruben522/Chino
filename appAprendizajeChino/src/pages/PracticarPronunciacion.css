@@ -1,0 +1,157 @@
+.practice-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.practice-controls .level-select select {
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.practice-controls .stats {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.practice-card {
+  background: #fffdf5;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.practice-word {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.practice-chinese {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.practice-pinyin {
+  color: #0058a3;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.practice-translation {
+  color: #374151;
+  margin-bottom: 12px;
+}
+
+.practice-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.prev-btn{
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: none;
+  background: #9b1d1d;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.mic-btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: #701fda;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.mic-btn.listening {
+  background: #9b1d1d;
+  box-shadow: 0 6px 18px rgba(214, 67, 67, 0.18);
+  transform: scale(1.02);
+}
+
+.next-btn, .skip-btn {
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: none;
+  background: #1d6fff;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.next-btn {
+  background: #1d6fff;
+}
+
+.skip-btn {
+  background: #6b7280;
+}
+
+.practice-feedback {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.practice-feedback .recognized {
+  opacity: 0.9;
+  margin-bottom: 6px;
+}
+
+.status.correct {
+  color: #16a34a;
+  font-weight: 700;
+}
+
+.status.incorrect {
+  color: #ef4444;
+  font-weight: 700;
+}
+
+.status.listening {
+  color: #d97706;
+  font-weight: 700;
+}
+
+.practice-note {
+  margin-top: 16px;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+.practice-score {
+  margin-top: 14px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+.recorded-player {
+  margin-top: 10px;
+  width: 180px;
+}
+
+.tone-feedback {
+  margin-top: 6px;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+.practice-reset-btn {
+  margin-top: 18px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #ef4444;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}

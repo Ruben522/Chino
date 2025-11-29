@@ -26,6 +26,9 @@ const HomePage = () => {
         <Link to="/frases">
           <button>📝 Practicar con Frases</button>
         </Link>
+        <Link to="/practica-pronunciacion">
+          <button>🎤 Practicar Pronunciación</button>
+        </Link>
       </div>
       <section className="home-info">
         <img

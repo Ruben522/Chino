@@ -10,9 +10,46 @@ const levels = {
 	1: hsk1,
 };
 
+// 🎨 Colores del análisis
+const colorSet = [
+	"#d62828", 
+	"#1d6fff", 
+	"#2f9e44",
+	"#7e22ce",
+	"#e8590c", 
+	"#0caadc"
+];
+
+// 🎨 Colores por tono
+const toneColors = {
+	1: "#e9c46a", // amarillo
+	2: "#2a9d8f", // verde
+	3: "#1d4ed8", // azul
+	4: "#d62828", // rojo
+	0: "#6b7280"  // gris
+};
+
+// Vocales con tono → número de tono
+const toneMarks = {
+  "ā": 1, "ē": 1, "ī": 1, "ō": 1, "ū": 1, "ǖ": 1,
+  "á": 2, "é": 2, "í": 2, "ó": 2, "ú": 2, "ǘ": 2,
+  "ǎ": 3, "ě": 3, "ǐ": 3, "ǒ": 3, "ǔ": 3, "ǚ": 3,
+  "à": 4, "è": 4, "ì": 4, "ò": 4, "ù": 4, "ǜ": 4
+};
+
+// Detectar tono del pinyin
+const getTone = (pinyin) => {
+  for (let char of pinyin) {
+    if (toneMarks[char]) return toneMarks[char];
+  }
+  return 0;
+};
+
 const Frases = () => {
 	const [level, setLevel] = useState(1);
 	const [tense, setTense] = useState("");
+	const [colorMode, setColorMode] = useState(false);
+	const [toneMode, setToneMode] = useState(false); // 🔥 nuevo toggle
 
 	const data = levels[level];
 
@@ -45,6 +82,30 @@ const Frases = () => {
 				</div>
 			</div>
 
+			{/* 🔥 TOGGLE COLORES ANALYSIS */}
+			<div className="frases-color-toggle">
+				<label>
+					<input
+						type="checkbox"
+						checked={colorMode}
+						onChange={() => setColorMode(!colorMode)}
+					/>
+					&nbsp;Colorear análisis
+				</label>
+			</div>
+
+			{/* 🔥 TOGGLE TONOS */}
+			<div className="frases-color-toggle">
+				<label>
+					<input
+						type="checkbox"
+						checked={toneMode}
+						onChange={() => setToneMode(!toneMode)}
+					/>
+					&nbsp;Colorear tonos del pinyin
+				</label>
+			</div>
+
 			{/* Lista de frases */}
 			<div className="frases-list">
 				{filtered.map((phrase) => (
@@ -58,13 +119,47 @@ const Frases = () => {
 						<div className="frase-spanish">{phrase.spanish}</div>
 
 						<div className="frase-analysis">
-							{phrase.analysis.map((part, idx) => (
-								<div className="analysis-part" key={idx}>
-									<span className="analysis-char">{part.char}</span>
-									<span className="analysis-pinyin">{part.pinyin}</span>
-									<span className="analysis-spanish">{part.spanish}</span>
-								</div>
-							))}
+							{phrase.analysis.map((part, idx) => {
+								const color = colorSet[idx % colorSet.length];
+								const tone = getTone(part.pinyin);
+
+								return (
+									<div
+										className="analysis-part"
+										key={idx}
+										style={{
+											backgroundColor: colorMode ? color + "22" : "transparent",
+											borderLeft: colorMode ? `5px solid ${color}` : "none",
+										}}
+									>
+										{/* Carácter */}
+										<span
+											className="analysis-char"
+											style={{ color: colorMode ? color : "inherit" }}
+										>
+											{part.char}
+										</span>
+
+										{/* Pinyin coloreado por tono */}
+										<span
+											className="analysis-pinyin"
+											style={{
+												color: toneMode ? toneColors[tone] : (colorMode ? color : "inherit")
+											}}
+										>
+											{part.pinyin}
+										</span>
+
+										{/* Traducción */}
+										<span
+											className="analysis-spanish"
+											style={{ color: colorMode ? color : "inherit" }}
+										>
+											{part.spanish}
+										</span>
+									</div>
+								);
+							})}
 						</div>
 					</div>
 				))}

@@ -34,6 +34,10 @@
     background-color: #28a745;
     color: white;
 }
+.home-links a:nth-child(5) button {
+    background-color: #6f42c1;
+    color: white;
+}
 
 .home-links button:hover {
     transform: translateY(-2px);
