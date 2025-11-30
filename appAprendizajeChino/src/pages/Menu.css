@@ -1,22 +1,102 @@
-.menu {
-    background: #007bff;
-    padding: 12px 20px;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+/* ==========================
+   MENÚ PRINCIPAL (layout)
+   ========================== */
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 12px 20px;
+  border-bottom: 1px solid #e4e4e4;
+  position: relative;
+  z-index: 20;
 }
 
+/* Enlaces */
 .menu-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
-    transition: opacity 0.2s ease;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
 }
 
 .menu-link:hover {
-    opacity: 0.75;
+  color: #0066cc;
 }
-.menu-link-active {
-    border-bottom: 2px solid white;
+
+/* ==========================
+      DROPDOWN
+   ========================== */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  min-width: 180px;
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-radius: 6px;
+  padding: 6px 0;
+  animation: fadeIn 0.16s ease-out;
+  z-index: 50;
+}
+
+.dropdown-link {
+  display: block;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.15s;
+}
+
+.dropdown-link:hover {
+  background: #f5f7fb;
+}
+
+/* Divisor profesional */
+.dropdown-divider {
+  height: 1px;
+  background: #e4e4e4;
+  margin: 6px 0;
+}
+
+/* Suave aparición */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==========================
+   MÓVIL (hamburguesa opcional)
+   ========================== */
+
+@media (max-width: 750px) {
+  .main-menu {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border: none;
+    padding-left: 12px;
+  }
+
+  .dropdown-link {
+    padding: 8px 12px;
+  }
 }

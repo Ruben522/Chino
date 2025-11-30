@@ -9,7 +9,9 @@
       { "char": "你", "pinyin": "nǐ", "spanish": "tú" },
       { "char": "好", "pinyin": "hǎo", "spanish": "bien" },
       { "char": "吗", "pinyin": "ma", "spanish": "partícula interrogativa" }
-    ]
+    ],
+    "category": "saludos",
+    "usage": "Saludo informal común"
   },
   {
     "id": 2,
@@ -21,7 +23,9 @@
       { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
       { "char": "很", "pinyin": "hěn", "spanish": "muy" },
       { "char": "好", "pinyin": "hǎo", "spanish": "bien" }
-    ]
+    ],
+    "category": "saludos",
+    "usage": "Respuesta a ¿cómo estás?"
   },
   {
     "id": 3,
@@ -35,7 +39,9 @@
       { "char": "饭", "pinyin": "fàn", "spanish": "comida" },
       { "char": "了", "pinyin": "le", "spanish": "indica acción completada" },
       { "char": "吗", "pinyin": "ma", "spanish": "partícula interrogativa" }
-    ]
+    ],
+    "category": "comida",
+    "usage": "Saludo muy común en China"
   },
   {
     "id": 4,
@@ -48,7 +54,9 @@
       { "char": "在", "pinyin": "zài", "spanish": "estar (acción en progreso)" },
       { "char": "学习", "pinyin": "xuéxí", "spanish": "estudiar" },
       { "char": "汉语", "pinyin": "hànyǔ", "spanish": "idioma chino" }
-    ]
+    ],
+    "category": "educación",
+    "usage": "Expresar actividad actual"
   },
   {
     "id": 5,
@@ -59,6 +67,294 @@
     "analysis": [
       { "char": "明天", "pinyin": "míngtiān", "spanish": "mañana" },
       { "char": "见", "pinyin": "jiàn", "spanish": "ver" }
-    ]
+    ],
+    "category": "despedidas",
+    "usage": "Despedida común"
+  },
+  {
+    "id": 6,
+    "chinese": "谢谢！",
+    "pinyin": "xièxie!",
+    "spanish": "¡Gracias!",
+    "tense": "presente",
+    "analysis": [
+      { "char": "谢", "pinyin": "xiè", "spanish": "agradecer" },
+      { "char": "谢", "pinyin": "xie", "spanish": "repetición suave" }
+    ],
+    "category": "cortesía",
+    "usage": "Expresar gratitud"
+  },
+  {
+    "id": 7,
+    "chinese": "不客气。",
+    "pinyin": "bù kèqì.",
+    "spanish": "De nada.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "不", "pinyin": "bù", "spanish": "no" },
+      { "char": "客气", "pinyin": "kèqì", "spanish": "cortés" }
+    ],
+    "category": "cortesía",
+    "usage": "Respuesta a 'gracias'"
+  },
+  {
+    "id": 8,
+    "chinese": "你叫什么名字？",
+    "pinyin": "nǐ jiào shénme míngzì?",
+    "spanish": "¿Cómo te llamas?",
+    "tense": "presente",
+    "analysis": [
+      { "char": "你", "pinyin": "nǐ", "spanish": "tú" },
+      { "char": "叫", "pinyin": "jiào", "spanish": "llamarse" },
+      { "char": "什么", "pinyin": "shénme", "spanish": "qué" },
+      { "char": "名字", "pinyin": "míngzì", "spanish": "nombre" }
+    ],
+    "category": "presentaciones",
+    "usage": "Preguntar nombre"
+  },
+  {
+    "id": 9,
+    "chinese": "我叫小明。",
+    "pinyin": "wǒ jiào Xiǎo Míng.",
+    "spanish": "Me llamo Xiao Ming.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
+      { "char": "叫", "pinyin": "jiào", "spanish": "llamarse" },
+      { "char": "小", "pinyin": "xiǎo", "spanish": "pequeño" },
+      { "char": "明", "pinyin": "míng", "spanish": "brillante" }
+    ],
+    "category": "presentaciones",
+    "usage": "Decir tu nombre"
+  },
+  {
+    "id": 10,
+    "chinese": "我是中国人。",
+    "pinyin": "wǒ shì Zhōngguó rén.",
+    "spanish": "Soy chino.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
+      { "char": "是", "pinyin": "shì", "spanish": "ser" },
+      { "char": "中国", "pinyin": "Zhōngguó", "spanish": "China" },
+      { "char": "人", "pinyin": "rén", "spanish": "persona" }
+    ],
+    "category": "nacionalidad",
+    "usage": "Decir nacionalidad"
+  },
+  {
+    "id": 11,
+    "chinese": "这是什么？",
+    "pinyin": "zhè shì shénme?",
+    "spanish": "¿Qué es esto?",
+    "tense": "presente",
+    "analysis": [
+      { "char": "这", "pinyin": "zhè", "spanish": "esto" },
+      { "char": "是", "pinyin": "shì", "spanish": "ser" },
+      { "char": "什么", "pinyin": "shénme", "spanish": "qué" }
+    ],
+    "category": "preguntas",
+    "usage": "Preguntar por objetos"
+  },
+  {
+    "id": 12,
+    "chinese": "那是书。",
+    "pinyin": "nà shì shū.",
+    "spanish": "Eso es un libro.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "那", "pinyin": "nà", "spanish": "eso" },
+      { "char": "是", "pinyin": "shì", "spanish": "ser" },
+      { "char": "书", "pinyin": "shū", "spanish": "libro" }
+    ],
+    "category": "objetos",
+    "usage": "Identificar objetos"
+  },
+  {
+    "id": 13,
+    "chinese": "多少钱？",
+    "pinyin": "duōshǎo qián?",
+    "spanish": "¿Cuánto cuesta?",
+    "tense": "presente",
+    "analysis": [
+      { "char": "多少", "pinyin": "duōshǎo", "spanish": "cuánto" },
+      { "char": "钱", "pinyin": "qián", "spanish": "dinero" }
+    ],
+    "category": "compras",
+    "usage": "Preguntar precios"
+  },
+  {
+    "id": 14,
+    "chinese": "我要喝水。",
+    "pinyin": "wǒ yào hē shuǐ.",
+    "spanish": "Quiero beber agua.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
+      { "char": "要", "pinyin": "yào", "spanish": "querer" },
+      { "char": "喝", "pinyin": "hē", "spanish": "beber" },
+      { "char": "水", "pinyin": "shuǐ", "spanish": "agua" }
+    ],
+    "category": "necesidades",
+    "usage": "Expresar deseos"
+  },
+  {
+    "id": 15,
+    "chinese": "今天天气很好。",
+    "pinyin": "jīntiān tiānqì hěn hǎo.",
+    "spanish": "Hoy el tiempo está muy bueno.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "今天", "pinyin": "jīntiān", "spanish": "hoy" },
+      { "char": "天气", "pinyin": "tiānqì", "spanish": "tiempo" },
+      { "char": "很", "pinyin": "hěn", "spanish": "muy" },
+      { "char": "好", "pinyin": "hǎo", "spanish": "bueno" }
+    ],
+    "category": "clima",
+    "usage": "Comentar el clima"
+  },
+  {
+    "id": 16,
+    "chinese": "我不会说中文。",
+    "pinyin": "wǒ bù huì shuō Zhōngwén.",
+    "spanish": "No sé hablar chino.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
+      { "char": "不", "pinyin": "bù", "spanish": "no" },
+      { "char": "会", "pinyin": "huì", "spanish": "saber" },
+      { "char": "说", "pinyin": "shuō", "spanish": "hablar" },
+      { "char": "中文", "pinyin": "Zhōngwén", "spanish": "chino" }
+    ],
+    "category": "habilidades",
+    "usage": "Expresar incapacidad"
+  },
+  {
+    "id": 17,
+    "chinese": "我喜欢中国菜。",
+    "pinyin": "wǒ xǐhuān Zhōngguó cài.",
+    "spanish": "Me gusta la comida china.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
+      { "char": "喜欢", "pinyin": "xǐhuān", "spanish": "gustar" },
+      { "char": "中国", "pinyin": "Zhōngguó", "spanish": "China" },
+      { "char": "菜", "pinyin": "cài", "spanish": "comida" }
+    ],
+    "category": "gustos",
+    "usage": "Expresar preferencias"
+  },
+  {
+    "id": 18,
+    "chinese": "现在几点？",
+    "pinyin": "xiànzài jǐ diǎn?",
+    "spanish": "¿Qué hora es ahora?",
+    "tense": "presente",
+    "analysis": [
+      { "char": "现在", "pinyin": "xiànzài", "spanish": "ahora" },
+      { "char": "几", "pinyin": "jǐ", "spanish": "cuántos" },
+      { "char": "点", "pinyin": "diǎn", "spanish": "hora" }
+    ],
+    "category": "tiempo",
+    "usage": "Preguntar la hora"
+  },
+  {
+    "id": 19,
+    "chinese": "我家有五个人。",
+    "pinyin": "wǒ jiā yǒu wǔ gè rén.",
+    "spanish": "En mi familia hay cinco personas.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
+      { "char": "家", "pinyin": "jiā", "spanish": "familia" },
+      { "char": "有", "pinyin": "yǒu", "spanish": "tener" },
+      { "char": "五", "pinyin": "wǔ", "spanish": "cinco" },
+      { "char": "个", "pinyin": "gè", "spanish": "clasificador" },
+      { "char": "人", "pinyin": "rén", "spanish": "persona" }
+    ],
+    "category": "familia",
+    "usage": "Describir familia"
+  },
+  {
+    "id": 20,
+    "chinese": "你去哪儿？",
+    "pinyin": "nǐ qù nǎr?",
+    "spanish": "¿A dónde vas?",
+    "tense": "presente",
+    "analysis": [
+      { "char": "你", "pinyin": "nǐ", "spanish": "tú" },
+      { "char": "去", "pinyin": "qù", "spanish": "ir" },
+      { "char": "哪儿", "pinyin": "nǎr", "spanish": "dónde" }
+    ],
+    "category": "direcciones",
+    "usage": "Preguntar destino"
+  },
+  {
+    "id": 21,
+    "chinese": "我二十岁。",
+    "pinyin": "wǒ èrshí suì.",
+    "spanish": "Tengo veinte años.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
+      { "char": "二十", "pinyin": "èrshí", "spanish": "veinte" },
+      { "char": "岁", "pinyin": "suì", "spanish": "años" }
+    ],
+    "category": "edad",
+    "usage": "Decir edad"
+  },
+  {
+    "id": 22,
+    "chinese": "对不起。",
+    "pinyin": "duìbuqǐ.",
+    "spanish": "Lo siento.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "对", "pinyin": "duì", "spanish": "correcto" },
+      { "char": "不起", "pinyin": "buqǐ", "spanish": "no poder soportar" }
+    ],
+    "category": "cortesía",
+    "usage": "Pedir disculpas"
+  },
+  {
+    "id": 23,
+    "chinese": "没关系。",
+    "pinyin": "méi guānxi.",
+    "spanish": "No importa.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "没", "pinyin": "méi", "spanish": "no" },
+      { "char": "关系", "pinyin": "guānxi", "spanish": "relación" }
+    ],
+    "category": "cortesía",
+    "usage": "Responder a disculpas"
+  },
+  {
+    "id": 24,
+    "chinese": "再见！",
+    "pinyin": "zàijiàn!",
+    "spanish": "¡Adiós!",
+    "tense": "presente",
+    "analysis": [
+      { "char": "再", "pinyin": "zài", "spanish": "otra vez" },
+      { "char": "见", "pinyin": "jiàn", "spanish": "ver" }
+    ],
+    "category": "despedidas",
+    "usage": "Despedida formal"
+  },
+  {
+    "id": 25,
+    "chinese": "我听不懂。",
+    "pinyin": "wǒ tīng bù dǒng.",
+    "spanish": "No entiendo.",
+    "tense": "presente",
+    "analysis": [
+      { "char": "我", "pinyin": "wǒ", "spanish": "yo" },
+      { "char": "听", "pinyin": "tīng", "spanish": "escuchar" },
+      { "char": "不", "pinyin": "bù", "spanish": "no" },
+      { "char": "懂", "pinyin": "dǒng", "spanish": "entender" }
+    ],
+    "category": "comunicación",
+    "usage": "Expresar falta de comprensión"
   }
 ]

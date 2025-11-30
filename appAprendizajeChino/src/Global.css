@@ -1,0 +1,97 @@
+/* global.css — estilos reutilizables para botones, dropdowns y elementos comunes */
+
+:root{
+  --accent: #007bff;
+  --accent-2: #00aaff;
+  --muted: #888;
+  --card-bg: #ffffff;
+  --glass: rgba(255,255,255,0.9);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f6f8fb;
+  color: #222;
+  margin: 0;
+}
+
+/* Botones base */
+.btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-secondary {
+  background: #f3f4f6;
+  color: #222;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--accent);
+}
+
+/* Variantes pequeñas */
+.btn-sm {
+  padding: 6px 10px;
+  font-size: 0.95rem;
+  border-radius: 6px;
+}
+
+/* Dropdown / submenu */
+.submenu {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.submenu-toggle {
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.submenu-list {
+  margin-top: 8px;
+  background: var(--card-bg);
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Reglas para enlaces del menú (coherentes) */
+.menu-link {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-link:hover, .submenu-link:hover {
+  background: #eef4ff;
+}
+
+/* Tarjetas y paneles básicos */
+.card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+
+/* helpers */
+.flex { display:flex; }
+.center { display:flex; justify-content:center; align-items:center; }
+.hidden { display:none; }

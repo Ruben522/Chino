@@ -7,36 +7,33 @@ import hsk2 from "../assets/hsk/hsk2.json";
 
 import "./StudyDeckPage.css";
 
-const levels = {
-  1: hsk1,
-  2: hsk2
-};
+const levels = { 1: hsk1, 2: hsk2 };
 
 const StudyDeckPage = () => {
   const [level, setLevel] = useState(1);
   const [index, setIndex] = useState(0);
 
-  const data = levels[level] || [];
+  const data = levels[level] ?? [];
 
   const next = () => {
-    setIndex((prev) => (prev + 1) % data.length);
+    if (data.length === 0) return;
+    setIndex((i) => (i + 1) % data.length);
   };
 
   const prev = () => {
-    setIndex((prev) => (prev === 0 ? data.length - 1 : prev - 1));
+    if (data.length === 0) return;
+    setIndex((i) => (i === 0 ? data.length - 1 : i - 1));
   };
 
   const changeLevel = (e) => {
-    const newLevel = Number(e.target.value);
-    setLevel(newLevel);
-    setIndex(0); // reiniciar para evitar errores
+    setLevel(Number(e.target.value));
+    setIndex(0);
   };
 
   return (
     <Contenedor>
       <h2>🃏 Flashcards HSK</h2>
 
-      {/* Selector de nivel */}
       <div className="flashcard-select-level">
         <label>Nivel:</label>
         <select value={level} onChange={changeLevel}>
@@ -46,15 +43,25 @@ const StudyDeckPage = () => {
       </div>
 
       <div className="flashcard-wrapper">
-        <Flashcard card={data[index]} />
+        {data.length > 0 ? (
+          <Flashcard card={data[index]} />
+        ) : (
+          <p>No hay datos disponibles.</p>
+        )}
       </div>
 
       <div className="controls">
-        <button onClick={prev}>← Anterior</button>
+        <button onClick={prev} disabled={data.length === 0}>
+          ← Anterior
+        </button>
+
         <div className="card-counter">
-          {index + 1} / {data.length}
+          {data.length > 0 ? `${index + 1} / ${data.length}` : "0 / 0"}
         </div>
-        <button onClick={next}>Siguiente →</button>
+
+        <button onClick={next} disabled={data.length === 0}>
+          Siguiente →
+        </button>
       </div>
     </Contenedor>
   );

@@ -5,7 +5,10 @@
     "pinyin": "rén",
     "meaning": "persona",
     "explanation": "Uno de los radicales más importantes. Aparece en caracteres relacionados con acciones humanas, profesiones o comportamientos.",
-    "examples": ["你 (tú)", "他 (él)", "从 (desde)"]
+    "examples": ["你 (nǐ - tú)", "他 (tā - él)", "从 (cóng - desde)", "众 (zhòng - multitud)"],
+    "variants": ["亻"],
+    "stroke_count": 2,
+    "position": ["left", "right", "top"]
   },
   {
     "id": 2,
@@ -13,7 +16,10 @@
     "pinyin": "kǒu",
     "meaning": "boca",
     "explanation": "Relacionada con hablar, comer o el número de personas. Muy frecuente en palabras cotidianas.",
-    "examples": ["吃 (comer)", "吗 (partícula interrogativa)", "叫 (llamarse)"]
+    "examples": ["吃 (chī - comer)", "吗 (ma - partícula interrogativa)", "叫 (jiào - llamarse)", "唱 (chàng - cantar)"],
+    "variants": [],
+    "stroke_count": 3,
+    "position": ["left", "right", "bottom", "enclosure"]
   },
   {
     "id": 3,
@@ -21,7 +27,10 @@
     "pinyin": "nǚ",
     "meaning": "mujer",
     "explanation": "Relativo a características femeninas, relaciones familiares y emociones.",
-    "examples": ["妈 (madre)", "好 (bueno)", "妹 (hermana menor)"]
+    "examples": ["妈 (mā - madre)", "好 (hǎo - bueno)", "妹 (mèi - hermana menor)", "婚 (hūn - matrimonio)"],
+    "variants": [],
+    "stroke_count": 3,
+    "position": ["left", "bottom"]
   },
   {
     "id": 4,
@@ -29,7 +38,10 @@
     "pinyin": "mù",
     "meaning": "madera / árbol",
     "explanation": "Relaciona caracteres con la naturaleza, objetos de madera o cosas construidas.",
-    "examples": ["林 (bosque)", "机 (máquina)", "本 (raíz, libro)"]
+    "examples": ["林 (lín - bosque)", "机 (jī - máquina)", "本 (běn - raíz, libro)", "桌 (zhuō - mesa)"],
+    "variants": [],
+    "stroke_count": 4,
+    "position": ["left", "right", "bottom"]
   },
   {
     "id": 5,
@@ -37,7 +49,10 @@
     "pinyin": "shuǐ",
     "meaning": "agua",
     "explanation": "Usado en caracteres relacionados con líquidos, limpieza, ríos, etc. A veces aparece como 氵.",
-    "examples": ["河 (río)", "海 (mar)", "酒 (alcohol)"]
+    "examples": ["河 (hé - río)", "海 (hǎi - mar)", "酒 (jiǔ - alcohol)", "洗 (xǐ - lavar)"],
+    "variants": ["氵"],
+    "stroke_count": 4,
+    "position": ["left", "bottom"]
   },
   {
     "id": 6,
@@ -45,7 +60,10 @@
     "pinyin": "huǒ",
     "meaning": "fuego",
     "explanation": "Se relaciona con calor, quemar, emoción o furia. También aparece como 灬 abajo.",
-    "examples": ["热 (calor)", "煮 (cocinar)", "灯 (luz)"]
+    "examples": ["热 (rè - calor)", "煮 (zhǔ - cocinar)", "灯 (dēng - luz)", "炎 (yán - inflamación)"],
+    "variants": ["灬"],
+    "stroke_count": 4,
+    "position": ["left", "bottom"]
   },
   {
     "id": 7,
@@ -53,7 +71,10 @@
     "pinyin": "xīn",
     "meaning": "corazón",
     "explanation": "Se usa en caracteres emocionales, mentales o relacionados con sentimientos. A veces aparece como 忄.",
-    "examples": ["想 (pensar)", "忙 (ocupado)", "快 (rápido, feliz)"]
+    "examples": ["想 (xiǎng - pensar)", "忙 (máng - ocupado)", "快 (kuài - rápido, feliz)", "爱 (ài - amar)"],
+    "variants": ["忄", "㣺"],
+    "stroke_count": 4,
+    "position": ["bottom", "left"]
   },
   {
     "id": 8,
@@ -61,7 +82,10 @@
     "pinyin": "shǒu",
     "meaning": "mano",
     "explanation": "Aparece en palabras de acciones, gestos o manipulación. A veces se escribe 扌.",
-    "examples": ["打 (golpear)", "找 (buscar)", "推 (empujar)"]
+    "examples": ["打 (dǎ - golpear)", "找 (zhǎo - buscar)", "推 (tuī - empujar)", "拿 (ná - tomar)"],
+    "variants": ["扌"],
+    "stroke_count": 4,
+    "position": ["left", "bottom"]
   },
   {
     "id": 9,
@@ -69,7 +93,10 @@
     "pinyin": "rì",
     "meaning": "sol, día",
     "explanation": "Relaciona caracteres con tiempo, luz, fechas o clima.",
-    "examples": ["明 (brillante)", "早 (temprano)", "时 (hora)"]
+    "examples": ["明 (míng - brillante)", "早 (zǎo - temprano)", "时 (shí - hora)", "春 (chūn - primavera)"],
+    "variants": [],
+    "stroke_count": 4,
+    "position": ["left", "right", "top", "bottom"]
   },
   {
     "id": 10,
@@ -77,6 +104,119 @@
     "pinyin": "yuè",
     "meaning": "luna, cuerpo",
     "explanation": "Puede significar luna, pero en muchos casos se usa como radical relacionado al cuerpo humano.",
-    "examples": ["腿 (pierna)", "肚 (vientre)", "朋 (amigo)"]
+    "examples": ["腿 (tuǐ - pierna)", "肚 (dù - vientre)", "朋 (péng - amigo)", "脸 (liǎn - cara)"],
+    "variants": [],
+    "stroke_count": 4,
+    "position": ["left", "right"]
+  },
+  {
+    "id": 11,
+    "radical": "言",
+    "pinyin": "yán",
+    "meaning": "hablar, palabra",
+    "explanation": "Relacionado con comunicación, lenguaje y expresión verbal.",
+    "examples": ["说 (shuō - decir)", "话 (huà - hablar)", "认 (rèn - reconocer)", "语 (yǔ - lenguaje)"],
+    "variants": ["讠"],
+    "stroke_count": 7,
+    "position": ["left"]
+  },
+  {
+    "id": 12,
+    "radical": "走",
+    "pinyin": "zǒu",
+    "meaning": "caminar",
+    "explanation": "Asociado con movimiento, transporte y desplazamiento.",
+    "examples": ["起 (qǐ - levantar, comenzar)", "超 (chāo - superar)", "越 (yuè - cruzar)", "赶 (gǎn - apresurarse)"],
+    "variants": ["赱"],
+    "stroke_count": 7,
+    "position": ["bottom", "left"]
+  },
+  {
+    "id": 13,
+    "radical": "金",
+    "pinyin": "jīn",
+    "meaning": "metal, oro",
+    "explanation": "Relacionado con metales, dinero y objetos valiosos.",
+    "examples": ["钱 (qián - dinero)", "银 (yín - plata)", "铁 (tiě - hierro)", "钟 (zhōng - reloj)"],
+    "variants": ["钅"],
+    "stroke_count": 8,
+    "position": ["left"]
+  },
+  {
+    "id": 14,
+    "radical": "土",
+    "pinyin": "tǔ",
+    "meaning": "tierra",
+    "explanation": "Asociado con suelo, construcción y lugares.",
+    "examples": ["地 (dì - tierra)", "场 (chǎng - lugar)", "城 (chéng - ciudad)", "坐 (zuò - sentarse)"],
+    "variants": [],
+    "stroke_count": 3,
+    "position": ["left", "bottom"]
+  },
+  {
+    "id": 15,
+    "radical": "艹",
+    "pinyin": "cǎo",
+    "meaning": "hierba, planta",
+    "explanation": "Relacionado con plantas, vegetación y cosas naturales.",
+    "examples": ["茶 (chá - té)", "花 (huā - flor)", "草 (cǎo - hierba)", "菜 (cài - vegetal)"],
+    "variants": ["艸"],
+    "stroke_count": 3,
+    "position": ["top"]
+  },
+  {
+    "id": 16,
+    "radical": "竹",
+    "pinyin": "zhú",
+    "meaning": "bambú",
+    "explanation": "Asociado con bambú, instrumentos y objetos delgados.",
+    "examples": ["笑 (xiào - reír)", "笔 (bǐ - lápiz)", "筷 (kuài - palillos)", "简 (jiǎn - simple)"],
+    "variants": ["⺮"],
+    "stroke_count": 6,
+    "position": ["top"]
+  },
+  {
+    "id": 17,
+    "radical": "糸",
+    "pinyin": "mì",
+    "meaning": "seda, hilo",
+    "explanation": "Relacionado con textiles, colores y cosas entrelazadas.",
+    "examples": ["红 (hóng - rojo)", "绿 (lǜ - verde)", "纸 (zhǐ - papel)", "级 (jí - nivel)"],
+    "variants": ["纟"],
+    "stroke_count": 6,
+    "position": ["left", "bottom"]
+  },
+  {
+    "id": 18,
+    "radical": "贝",
+    "pinyin": "bèi",
+    "meaning": "concha, dinero",
+    "explanation": "Originalmente conchas usadas como dinero, ahora relacionado con comercio y valor.",
+    "examples": ["买 (mǎi - comprar)", "卖 (mài - vender)", "贵 (guì - caro)", "货 (huò - mercancía)"],
+    "variants": [],
+    "stroke_count": 4,
+    "position": ["left", "bottom"]
+  },
+  {
+    "id": 19,
+    "radical": "车",
+    "pinyin": "chē",
+    "meaning": "vehículo, rueda",
+    "explanation": "Relacionado con transporte, movimiento y máquinas.",
+    "examples": ["轻 (qīng - ligero)", "转 (zhuǎn - girar)", "输 (shū - transportar)", "军 (jūn - ejército)"],
+    "variants": ["車"],
+    "stroke_count": 4,
+    "position": ["left"]
+  },
+  {
+    "id": 20,
+    "radical": "刀",
+    "pinyin": "dāo",
+    "meaning": "cuchillo",
+    "explanation": "Asociado con cortar, separar y herramientas afiladas.",
+    "examples": ["分 (fēn - dividir)", "切 (qiē - cortar)", "利 (lì - afilado)", "到 (dào - llegar)"],
+    "variants": ["刂"],
+    "stroke_count": 2,
+    "position": ["right", "bottom"]
   }
 ]
